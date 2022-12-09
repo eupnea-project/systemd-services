@@ -3,5 +3,5 @@ Description=Eupnea auto-update
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/update-scripts
-ExecStart=/usr/local/bin/manage-kernels --update --non-interactive
+ExecStart=/usr/lib/eupnea/eupnea-update
+ExecStart=/usr/bin/manage-kernels --update --non-interactive
