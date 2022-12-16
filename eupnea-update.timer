@@ -1,5 +1,6 @@
 [Unit]
 Description=Eupnea auto-update timer
+# This service will be deleted when Eupnea moves to using kernel packages instead of a script.
 
 [Timer]
 OnUnitActiveSec=1d
