@@ -1,7 +1,7 @@
 [Unit]
 Description=Eupnea auto-update
+# This service will be deleted when Eupnea moves to using kernel packages instead of a script.
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/update-scripts
-ExecStart=/usr/local/bin/manage-kernels --update --non-interactive
+ExecStart=/usr/bin/manage-kernels --update --non-interactive
